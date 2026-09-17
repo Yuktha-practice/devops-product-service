@@ -1,6 +1,6 @@
 @Library('devops-shared-library') _
 
-devopsPipeline(
+ciPipeline(
     application: 'devops-product-service',
     type: 'java',
     ecrRepository: 'devops-product-service',
