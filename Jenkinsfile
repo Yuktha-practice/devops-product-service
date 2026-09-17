@@ -5,4 +5,5 @@ ciPipeline(
     type: 'java',
     ecrRepository: 'devops-product-service',
     awsRegion: 'eu-north-1'
+	sonarProjectKey: 'devops-product-service'
 )
